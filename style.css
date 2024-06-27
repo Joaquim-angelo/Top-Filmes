@@ -65,6 +65,7 @@ img{
     border: 2px solid black;
     box-shadow: 2px 2px 2px 3px black;
     transition: transform 0.5s;
+    text-align: center;
 }
 
 .filme>p{
