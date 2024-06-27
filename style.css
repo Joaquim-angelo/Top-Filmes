@@ -1,0 +1,72 @@
+@charset 'UTF-8';
+
+@font-face {
+    font-family: 'Kaushan';
+    src: url(KaushanScript-Regular.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:#81827496;
+    text-align: center;
+    font-family: 'Kaushan';
+}
+header{
+    background:linear-gradient(to right,red,black);
+    height: 170px;
+}
+
+header>h1{
+    padding: 6%;
+}
+
+nav{
+    background-color: black;
+    padding: 10px;
+}
+
+p{
+    color: rgb(255, 253, 253);
+}
+
+#titulos{
+    text-align: left;
+    color: white;
+    background-image: linear-gradient(to left,black,red);
+    padding: 10px;
+    margin-top: 10px;
+}
+img{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.filme{
+    padding-bottom: 8px;
+}
+
+.filme>p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.filme>img{
+    max-width: 200px;
+}
+
+.filme:hover{
+    background-color: aliceblue;
+    transform: translate(-10px,-10px);
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px 3px black;
+    transition: transform 0.5s;
+}
+
+.filme>p{
+    color: black;
+}
